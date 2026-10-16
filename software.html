@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Problems - Computer Troubleshooting Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">TroubGuide</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hardware.html">Hardware</a></li>
+      <li><a href="software.html">Software</a></li>
+      <li><a href="internet.html">Internet</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li><a href="maintenance.html">Maintenance</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Software and Performance Problems</h1>
+    <p>Software means the programs and operating system that run on the computer. Software problems include slow performance, freezing, crashing programs, and error screens. They are usually easier to fix than hardware problems and do not require opening the computer.</p>
+
+    <h2>Computer Is Running Slow</h2>
+    <h3>Common causes</h3>
+    <ul>
+      <li>Too many programs running at the same time.</li>
+      <li>Too many programs starting automatically when the computer turns on.</li>
+      <li>The hard drive is almost full.</li>
+      <li>Not enough memory (RAM).</li>
+      <li>Malware running in the background.</li>
+    </ul>
+    <h3>Steps to fix</h3>
+    <ol>
+      <li>Restart the computer.</li>
+      <li>Press <strong>Ctrl + Shift + Esc</strong> to open Task Manager. Look at which programs use the most CPU, memory, or disk. Select one you do not need and click End task.</li>
+      <li>Open the Startup tab in Task Manager and disable programs you do not need at startup.</li>
+      <li>Uninstall programs you no longer use from Settings &gt; Apps.</li>
+      <li>Delete temporary files using Disk Cleanup or Storage settings.</li>
+      <li>Run a full antivirus scan.</li>
+      <li>Install all available system updates.</li>
+    </ol>
+
+    <h2>Computer Keeps Freezing</h2>
+    <ol>
+      <li>Wait one or two minutes. The computer may be busy and will recover.</li>
+      <li>Press Ctrl + Alt + Delete and open Task Manager to close the program that is not responding.</li>
+      <li>If nothing responds, hold the power button for 5 to 10 seconds to force a shutdown.</li>
+      <li>After restarting, check that the computer is not overheating (see the Hardware page).</li>
+      <li>Make sure at least 15% of the hard drive is free.</li>
+      <li>Update drivers, especially the graphics driver.</li>
+    </ol>
+
+    <h2>A Program Will Not Open or Keeps Crashing</h2>
+    <ul>
+      <li>Close the program completely using Task Manager and open it again.</li>
+      <li>Restart the computer.</li>
+      <li>Check whether an update is available for the program.</li>
+      <li>Right-click the program and choose <strong>Run as administrator</strong>.</li>
+      <li>Uninstall the program and install a fresh copy from the official website.</li>
+      <li>Check that the program is compatible with your version of Windows.</li>
+    </ul>
+
+    <h2>Blue Screen of Death (BSOD)</h2>
+    <p>A blue screen appears when Windows meets an error it cannot recover from. It shows a sad face and a stop code such as <strong>CRITICAL_PROCESS_DIED</strong> or <strong>MEMORY_MANAGEMENT</strong>.</p>
+    <ol>
+      <li>Write down or take a photo of the stop code.</li>
+      <li>Let the computer restart. A single blue screen may never happen again.</li>
+      <li>Unplug any new devices you recently connected.</li>
+      <li>Uninstall recently installed programs or drivers.</li>
+      <li>Start in Safe Mode and use System Restore to return to an earlier working state.</li>
+      <li>Open Command Prompt as administrator and run <strong>sfc /scannow</strong> to repair damaged system files.</li>
+      <li>If blue screens continue, test the memory (RAM) with Windows Memory Diagnostic.</li>
+    </ol>
+
+    <h2>Not Enough Storage Space</h2>
+    <ul>
+      <li>Empty the Recycle Bin.</li>
+      <li>Delete files in the Downloads folder you no longer need.</li>
+      <li>Turn on Storage Sense in Settings to remove temporary files automatically.</li>
+      <li>Move photos, videos, and large files to an external drive or cloud storage.</li>
+      <li>Uninstall large programs and games you do not use.</li>
+    </ul>
+
+    <h2>Windows Update Problems</h2>
+    <ol>
+      <li>Make sure you have a stable internet connection and enough storage space.</li>
+      <li>Restart the computer and try the update again.</li>
+      <li>Run the Windows Update troubleshooter from Settings &gt; System &gt; Troubleshoot.</li>
+      <li>Disconnect extra USB devices during the update.</li>
+      <li>If the update is stuck, wait at least an hour before forcing a restart.</li>
+    </ol>
+
+    <h2>Useful Keyboard Shortcuts</h2>
+    <table>
+      <tr>
+        <th>Shortcut</th>
+        <th>What it does</th>
+      </tr>
+      <tr>
+        <td>Ctrl + Shift + Esc</td>
+        <td>Opens Task Manager</td>
+      </tr>
+      <tr>
+        <td>Ctrl + Alt + Delete</td>
+        <td>Opens the security screen</td>
+      </tr>
+      <tr>
+        <td>Windows + L</td>
+        <td>Locks the computer</td>
+      </tr>
+      <tr>
+        <td>Windows + R</td>
+        <td>Opens the Run box</td>
+      </tr>
+      <tr>
+        <td>Alt + F4</td>
+        <td>Closes the current window</td>
+      </tr>
+    </table>
+
+    <p><a href="hardware.html">Previous: Hardware Problems</a> | <a href="internet.html">Next: Internet Problems</a></p>
+  </main>
+
+  <footer>
+    <p>2026 Computer Troubleshooting Guide</p>
+  </footer>
+
+</body>
+</html>

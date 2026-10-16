@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internet Problems - Computer Troubleshooting Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">TroubGuide</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hardware.html">Hardware</a></li>
+      <li><a href="software.html">Software</a></li>
+      <li><a href="internet.html">Internet</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li><a href="maintenance.html">Maintenance</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Internet and Network Problems</h1>
+    <p>An internet connection depends on several parts working together: your computer, the router, the modem, and your internet service provider (ISP). A problem in any one of them can cut your connection. The key to fixing network problems is finding out which part is failing.</p>
+
+    <h2>Step 1: Find Where the Problem Is</h2>
+    <ul>
+      <li><strong>Only one device is affected:</strong> The problem is probably on that device.</li>
+      <li><strong>All devices are affected:</strong> The problem is probably the router, modem, or ISP.</li>
+      <li><strong>Only one website is affected:</strong> The website itself may be down.</li>
+    </ul>
+
+    <h2>No Internet Connection</h2>
+    <ol>
+      <li>Check that WiFi is turned on and Airplane mode is off.</li>
+      <li>Check that the network cable is firmly plugged in if you use a wired connection.</li>
+      <li>Restart your computer.</li>
+      <li>Unplug the router and modem from power. Wait 30 seconds, plug the modem in first, wait a minute, then plug in the router.</li>
+      <li>Forget the WiFi network in settings, then reconnect and type the password again.</li>
+      <li>Run the Windows Network Troubleshooter by right-clicking the network icon and choosing Troubleshoot problems.</li>
+      <li>If other devices also cannot connect, contact your internet provider.</li>
+    </ol>
+
+    <h2>Connected to WiFi but No Internet</h2>
+    <p>This means your computer is talking to the router, but the router cannot reach the internet.</p>
+    <ul>
+      <li>Check the lights on the modem. A red or blinking light usually means a problem with the line.</li>
+      <li>Restart the modem and router.</li>
+      <li>Open Command Prompt and type <strong>ipconfig /release</strong>, then <strong>ipconfig /renew</strong>.</li>
+      <li>Type <strong>ipconfig /flushdns</strong> to clear the DNS cache.</li>
+      <li>Call your provider to check for an outage in your area.</li>
+    </ul>
+
+    <h2>Slow Internet</h2>
+    <ol>
+      <li>Run a speed test and compare the result with the plan you pay for.</li>
+      <li>Move closer to the router or remove obstacles such as walls and metal objects.</li>
+      <li>Disconnect devices that are not in use. Streaming and downloads on other devices use bandwidth.</li>
+      <li>Close background programs that are downloading or updating.</li>
+      <li>Try a wired connection with an Ethernet cable. It is usually faster and more stable than WiFi.</li>
+      <li>Restart the router. If it runs for months, it may slow down.</li>
+      <li>Change the WiFi channel in the router settings if many neighbors use the same channel.</li>
+    </ol>
+
+    <h2>Websites Will Not Load</h2>
+    <ul>
+      <li>Check whether other websites work. If they do, the one site may be down.</li>
+      <li>Clear the browser cache and cookies.</li>
+      <li>Try a different browser.</li>
+      <li>Disable browser extensions one by one to find a faulty one.</li>
+      <li>Change your DNS server to a public one such as 8.8.8.8 or 1.1.1.1.</li>
+      <li>Check the date and time on your computer. A wrong date can block secure websites.</li>
+    </ul>
+
+    <h2>Router Lights Guide</h2>
+    <table>
+      <tr>
+        <th>Light</th>
+        <th>Normal State</th>
+        <th>If It Is Off or Red</th>
+      </tr>
+      <tr>
+        <td>Power</td>
+        <td>Solid green</td>
+        <td>Check the power adapter and outlet</td>
+      </tr>
+      <tr>
+        <td>Internet / WAN</td>
+        <td>Solid or blinking green</td>
+        <td>Line problem; restart, then call the provider</td>
+      </tr>
+      <tr>
+        <td>WiFi</td>
+        <td>Solid or blinking</td>
+        <td>WiFi may be disabled in router settings</td>
+      </tr>
+      <tr>
+        <td>LAN</td>
+        <td>Blinking when a cable is connected</td>
+        <td>Check the Ethernet cable</td>
+      </tr>
+    </table>
+
+    <div class="note">
+      <p><strong>Tip:</strong> Change the default router password and use WPA2 or WPA3 security so strangers cannot use your WiFi.</p>
+    </div>
+
+    <p><a href="software.html">Previous: Software Problems</a> | <a href="security.html">Next: Security</a></p>
+  </main>
+
+  <footer>
+    <p>2026 Computer Troubleshooting Guide</p>
+  </footer>
+
+</body>
+</html>
